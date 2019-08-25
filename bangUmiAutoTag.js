@@ -18,7 +18,7 @@
     let tagStr = res.join(" ");
     function getTag(tag){
         if(tag == "")return false;
-    	console.log(arr2.indexOf(tag)!=-1);
+    	//console.log(arr2.indexOf(tag)!=-1);
     	return arr2.indexOf(tag)!=-1;
     };
     chiiLib.subject.addTag(tagStr);
